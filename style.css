@@ -2,11 +2,17 @@
 body{
     margin: 0px;
     font-family: 'VT323', Courier, monospace;
+    font-size: 30px;
+    text-align: left;
 }
 
+
 nav{
+    text-align: justify;
     align-items: center;
     background-color: #e98251;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
     display: flex;
     height: 60px;
     justify-content: space-evenly;
@@ -14,7 +20,7 @@ nav{
 
 a{
     color:#17386d;
-    font-size: 21pt;
+    font-size: 20pt;
     text-decoration: none;
 
 }
@@ -22,6 +28,56 @@ a{
 header{
     background-image: url("imagens/5-kages.jpg");
     background-size: cover;
-    height: 400px;
+    height: 100vh;
 }
 
+section{
+    background-color:#b0946b;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+div{
+    width: 40%;
+}
+
+div ul{
+    list-style-type:none;
+   /* list-style-image: url("imagens/folha.png");*/
+}
+
+ul:nth-child(even){
+    color: white;
+}
+
+
+.titulo{
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+input::placeholder{
+    font-family: 'VT323', Courier, monospace;
+}
+
+input:focus{
+    background-color: #e98251;
+    width: 100px;
+    height: 50px;
+}
+
+footer div{
+    display:flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
