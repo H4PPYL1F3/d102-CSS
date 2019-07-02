@@ -19,3 +19,9 @@ a{
 
 }
 
+header{
+    background-image: url("imagens/5-kages.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
