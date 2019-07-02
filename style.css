@@ -1,0 +1,21 @@
+
+body{
+    margin: 0px;
+    font-family: 'VT323', Courier, monospace;
+}
+
+nav{
+    align-items: center;
+    background-color: #e98251;
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+}
+
+a{
+    color:#17386d;
+    font-size: 21pt;
+    text-decoration: none;
+
+}
+
